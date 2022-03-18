@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5050</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .item {
+        font-size: 24px;
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+      .item:hover {
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
-  <body>
-    <a href="./1-Expanding-Card/index.html">Expanding Card</a>
+  <body class="container">
+    <a href="./1-Expanding-Card/index.html" class="item">Expanding Card</a>
+    <a href="./2-Progress-Steps/index.html" class="item">Progress Steps</a>
   </body>
 </html>
