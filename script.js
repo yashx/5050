@@ -19,6 +19,10 @@ const items = [
     url: "./5-Blurry-Loading/index.html",
     text: "Blurry Loading",
   },
+  {
+    url: "./6-Scroll-Animation/index.html",
+    text: "Scroll Animation",
+  },
 ];
 
 const container = document.getElementById("container");
