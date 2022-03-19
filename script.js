@@ -23,6 +23,10 @@ const items = [
     url: "./6-Scroll-Animation/index.html",
     text: "Scroll Animation",
   },
+  {
+    url: "./8-Form-Wave/index.html",
+    text: "Form Wave",
+  },
 ];
 
 const container = document.getElementById("container");
