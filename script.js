@@ -13,7 +13,7 @@ const items = [
   },
   {
     url: "./4-Hidden-Search-Widget/index.html",
-    text: "	Hidden Search Widget",
+    text: "Hidden Search Widget",
   },
 ];
 
